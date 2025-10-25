@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Para ti muñequita de mi vida:\n\nA ti, que entraste en mi vida de una manera inesperada, todo un pan de Dios boquita de caramelo dulce poesía te quería decir:\n\nGracias por alegrarme la vida, las risas, los abrazos inesperados, los momentos y mas que nada gracias por hacer conocer lo que es amar.\n\nNo sé qué hice para merecerte,
+    text = `Para ti muñequita de mi vida:\n\nA ti, que entraste en mi vida de una manera inesperada, todo un pan de Dios boquita de caramelo dulce poesía te quería decir:\n\nGracias por alegrarme la vida, las risas, los abrazos inesperados, los momentos y mas que nada gracias por hacerme sentir lo que es amar.\n\nNo sé qué hice para merecerte,
 pero sí sé que haré todo lo posible para no perderte.\n`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
